@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("اسم السكربت", "DarkTheme")
+local Tab = Window:NewTab("تجربه")
+local Section = Tab:NewSection("تجربه")
+Section:NewButton("سكربت عربي", "سكربت عربي", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/VX610/VX6/main/SCRIPT",true))()
+end)
+
+Section:NewButton("سكربت عربي", "سكربت عربي", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/VX610/VX6/main/SCRIPT",true))()
+end)
